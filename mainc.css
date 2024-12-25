@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Bowlby One", serif;
+    background-color: #ECECEC
+}
+
+header{ background-color: #2e2b2b ;
+    padding: 45px;
+    position: sticky;
+
+
+
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: end;
+}
+.container{
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    display: flex;
+    gap: 15px;
+
+}
+ul li {
+
+    list-style: none;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+ul li a:hover {
+    color: pink;
+    text-decoration: none;
+}
+
+a{
+
+
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: pink;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.bg-image{
+    background-image: url("pexels.png");
+    height: 400px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-image-text  {
+
+    text-align: center;
+    padding: 110px;
+    font-size: 50px;
+    
+}
+.bg-image-text:hover {
+    color: pink;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.text{
+
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+.text h4{
+    margin: 20px;
+}
